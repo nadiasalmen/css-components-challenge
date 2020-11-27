@@ -1,0 +1,91 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  background: #FAF9F8;
+  padding: 40px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.menu-class {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-class a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+.menu-class i {
+  margin: 20px;
+}
+
+#active-class {
+  background-color: white;
+  padding: 16px;
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #e6e6e6;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-grow: 1;
+  text-align: justify;
+}
+
+.menu-option {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  font-size: 24px;
+  padding: 20px;
+  display: inline;
+}
+
+.menu-option.active {
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #FFD18A;
+}
+
+.menu-option i {
+  margin: 10px;
+  display: inline;
+}
+
+.menu-option.active i {
+  background: #FFD18A;
+  border-radius: 50%;
+  padding: 18px;
+}
+
+.menu-settings {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-settings a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  font-size: 24px;
+}
+
+.menu-settings i {
+  margin: 10px;
+}

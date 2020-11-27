@@ -1,0 +1,35 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+@import url("components/menu.css");
+@import url("components/calendar.css");
+@import url("components/cards.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: 'Questrial', sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #FFD18A;
+}
+
